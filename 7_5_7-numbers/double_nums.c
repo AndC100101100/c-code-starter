@@ -10,7 +10,7 @@ int main(){
 
 
 	double pi_to_20_digits = 3.14159265358979323846;
-	printf("Pi to 20 decimal digits: %.20f\n", pi_to_20_digits);
+	printf("Pi to 20 decimal digits: %.20f\n", pi_to_20_digits); // after 15 digits, it starts losing precision
 
 	double calc_5000000_pi_20= 5000000 * 3.14159265358979323846;
 	printf("5,000,000 * Pi to 15 decimal digits: %.15f\n", calc_5000000_pi_20);
