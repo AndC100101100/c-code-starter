@@ -12,3 +12,10 @@ we can understand that our `sentence` var is an array, and array of bytes.
 When our bytes are read back from memory, the binary from each byte is converted to whatever format we ask. binary -> decimal -> character
 
 ## null terminator
+a null terminator is represented as `\0` and ends up in memory as `00000000`. it signifies the end of data or of the item being read, terminating the reading with nothing else or null, further to pick up.
+
+signifies the end of our item in memory
+```c
+    char hello_pieces[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+
+```
