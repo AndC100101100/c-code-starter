@@ -15,11 +15,11 @@ int main(){
 	printf("Fun: %d, Evil: %d", fun, evil);
 
 	/**
-	 * booleans translate into integers so most of the truthy and falsy rules 
-	 * taht youd expect would apply. its output would be do to fun being set
-	 * to true and under the hood translating to the int value 1, so 1==1 is true meaning 1,
-	 * while 1==0 isnt , so false, meaning that the int value in that case is 0
-	 * /
+	 * booleans translate into integers so most of the truthy and falsy rules
+	 taht youd expect would apply. its output would be do to fun being set
+	 to true and under the hood translating to the int value 1, so 1==1 is true meaning 1,
+	 while 1==0 isnt , so false, meaning that the int value in that case is 0
+	 ** /
 	printf("Fun equals 1? %d\nFun equals 0? %d", fun == 1, fun == 0);
 
 	return 0;
