@@ -3,8 +3,9 @@
 int main(){
 	char *block = "█";
     	char *period = ".";
+	int loaded = 7;
 	for (int i = 1; i <=10; i++){
-		printf("%s", block);
+		printf("%s", i <= loaded ? block : period);
 	
 	}
 
