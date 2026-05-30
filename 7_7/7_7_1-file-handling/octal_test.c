@@ -4,8 +4,13 @@ int main() {
 	FILE *fp = fopen("file.txt", "r");
 	char buff[2];
 
-	fclose(fp);
 
+
+	while (fscanf(fp, "%hho", buff) != EOF){
+		printf("%s", buff);
+	}
+
+    fclose(fp);
     return 0;
 }
 
