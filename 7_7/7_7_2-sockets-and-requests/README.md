@@ -19,7 +19,7 @@ idk dude ask chatgpt or sum, i am not using windows
 
 # Linking
 
-your linker WILL (ld) because it sees the names of the curl functions, but it doesn't have the actual compiled library code to stitch into your final http executable.
+your linker (ld) WILL complain because it sees the names of the curl functions, but it doesn't have the actual compiled library code to stitch into your final http executable.
 
 you just need to add the -lcurl flag to your command.
 
