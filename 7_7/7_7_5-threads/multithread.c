@@ -11,10 +11,10 @@ void *outputMsg()
 
 int main()
 {
-    pthread_t threadId;
+    pthread_t threadId; // var, is a threaddata type called pthread_t which begins an integer value, something like 4096
     printf("Starting thread id: %ld\n", threadId);
-    pthread_create(&threadId, NULL, outputMsg, NULL);
-    pthread_join(threadId, NULL);
+    pthread_create(&threadId, NULL, outputMsg, NULL); // create a new thread with our threadId with its attributes
+    pthread_join(threadId, NULL); // join main thread
     sleep(1);
     printf("Exiting...\n");
     return 0;
